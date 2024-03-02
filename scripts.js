@@ -2,7 +2,7 @@ $(document).ready(function () {
     // Function to fetch images from the 'images' folder
     function fetchImages() {
         return $.ajax({
-            url: 'images/', // Adjust the path accordingly
+            url: 'images', // Adjust the path accordingly
             dataType: 'json'
         })
     }
