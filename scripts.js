@@ -5,10 +5,6 @@ $(document).ready(function () {
             url: 'images/', // Adjust the path accordingly
             dataType: 'json'
         })
-            .fail(function (jqXHR, textStatus, errorThrown) {
-                console.error('Error fetching images:', textStatus, errorThrown);
-                // Handle the error here, such as displaying an error message to the user
-            });
     }
 
     // Function to create and append image elements to the gallery
