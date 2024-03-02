@@ -10,14 +10,17 @@
         .nav-link {
             color: black;
         }
+
         .img-container {
             position: relative;
             overflow: hidden;
             display: inline-block;
         }
+
         .img-container img.blur {
             filter: blur(8px);
         }
+
         .file-name {
             position: absolute;
             top: 50%;
@@ -61,7 +64,11 @@
                 return $.ajax({
                     url: 'pelekatSS/images', // Adjust the path accordingly
                     dataType: 'json'
-                });
+                })
+                    .fail(function (jqXHR, textStatus, errorThrown) {
+                        console.error('Error fetching images:', textStatus, errorThrown);
+                        // Handle the error here, such as displaying an error message to the user
+                    });
             }
 
             // Function to create and append image elements to the gallery
