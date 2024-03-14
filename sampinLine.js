@@ -11,30 +11,6 @@ export function imageLink() {
       case "B":
         limit = 10;
         break;
-      case "C":
-        limit = 10;
-        break;
-      case "D":
-        limit = 10;
-        break;
-      case "E":
-        limit = 10;
-        break;
-      case "F":
-        limit = 4;
-        break;
-      case "G":
-        limit = 10;
-        break;
-      case "H":
-        limit = 10;
-        break;
-      case "J":
-        limit = 10;
-        break;
-      case "K":
-        limit = 1;
-        break;
       default:
         limit = 10;
         break;
