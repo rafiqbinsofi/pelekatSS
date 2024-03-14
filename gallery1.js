@@ -1,14 +1,8 @@
+import { imageLink } from "./sampinLine.js";
+
 $(document).ready(function () {
-  let result = [];
-  for (let letter of ["A", "B", "C", "D", "E", "F", "G", "H", "J"]) {
-    for (let number = 1; number <= 10; number++) {
-      result.push(letter + number);
-    }
-  }
-
   const gallery = $("#imageGallery");
-
-
+  let result = imageLink();
   result.forEach((path) => {
     const imgContainer = $('<div class="img-container col-md-4">');
     const imgElement = $("<img>");
@@ -19,8 +13,11 @@ $(document).ready(function () {
       width: "600px", // Adjust the width as needed
       height: "400px", // Adjust the height as needed
     });
+    const divider = $('<div class="divider" style="margin-bottom:5.8%;">');
 
     imgContainer.append(imgElement);
+    imgContainer.append(divider);
+
     gallery.append(imgContainer);
 
     // Hover effect
