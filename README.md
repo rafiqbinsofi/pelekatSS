@@ -25,7 +25,7 @@ Logo Replacement 🌟
 
 Time for a logo glow-up:
 
-    Locate the logo section in the HTML files.
+    Find index.html and gallery2.html.
     Look for <!-- Logo -->.
     Swap out the old logo with a shiny new one.
     Save and admire your brand's new look!
@@ -34,7 +34,7 @@ Footer Contact Information Update 📞
 
 Keep your contact details fresh:
 
-    Find the footer section in the HTML files.
+    Find index.html and gallery2.html.
     Look for <!-- Whatsapp Contact --> or <!-- Instagram Contact -->.
     Update with the latest contact info.
     Save and stay connected!
@@ -45,7 +45,6 @@ Rename those images like a pro:
 
     Navigate to the image folder.
     Give your images a cool new name.
-    Update references in HTML or JavaScript files if needed.
     Save and let your creativity shine!
 
 Modifying Samping Naming Scheme 🎭
@@ -56,14 +55,8 @@ Follow the script in sampinLine.js for a naming makeover:
     Follow the instructions to update the naming scheme.
     Save and let the show go on!
 
-Additional Notes 📝
-
-    Always backup files before making big changes.
-    Test your changes across devices and browsers for maximum impact.
-    Embrace version control with Git for smooth sailing.
-
 Need Help? 🤔
 
-If you're feeling lost or need a guiding hand, reach out to contact@example.com for assistance!
+If you're feeling lost or need a guiding hand, reach out to https://wa.me/601159297870 for assistance!
 
 Let's sprinkle some web magic together! ✨
