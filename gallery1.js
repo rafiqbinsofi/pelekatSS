@@ -6,7 +6,7 @@ $(document).ready(function () {
   result.forEach((path) => {
     const imgContainer = $('<div class="img-container col-md-4">');
     const imgElement = $("<img>");
-    imgElement.attr("src", "images/" + path + ".jpeg");
+    imgElement.attr("src", "images/" + path + ".jpg");
     imgElement.attr("alt", "image");
     imgElement.addClass("img-fluid");
     imgElement.css({
