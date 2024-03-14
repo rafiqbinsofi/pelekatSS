@@ -1,7 +1,9 @@
 export function imageLink() {
   let result = [];
   let limit;
+  // Change samping Line here
   for (let letter of ["A", "B", "C", "D", "E", "F", "G", "H", "J", "K"]) {
+    // Change limit to represent the number of sampin in each line
     switch (letter) {
       case "A":
         limit = 10;
