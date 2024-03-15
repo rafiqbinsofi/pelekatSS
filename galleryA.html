@@ -39,7 +39,6 @@
         }
     </style>
     <title>Best Samping in Kuching</title>
-
 </head>
 
 <body>
@@ -51,21 +50,13 @@
     <div class="container">
         <header class="d-flex justify-content-center py-3">
             <ul class="nav nav-underline">
-                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
             </ul>
         </header>
     </div>
     <!-- Gallery -->
     <div class="container mt-4">
-        <div class="row text-center" id="imageGallery">
-            <div id="imageContainerLeft" class="img-container col-md-6"><img id="imageSelfLeft" src="images/B7.jpg"
-                    alt="image" class="img-fluid" style="width: 70%; height: 86%;">
-                <div class="divider" style="margin-bottom:5.8%;"></div>
-            </div>
-            <div id="imageContainerRight" class="img-container col-md-6"><img id="imageSelfRight" src="images/A1.jpg" alt="image" class="img-fluid"
-                    style="width: 70%; height: 86%;">
-                <div class="divider" style="margin-bottom:5.8%;"></div>
-            </div>
+        <div class="row" id="imageGallery">
         </div>
     </div>
     <!-- Footer -->
@@ -74,46 +65,13 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js "></script>
+    <script type="module" src="galleryA.js"></script>
     <script>
         $(document).ready(function () {
             $("#footer-id").load("footer.html");
-            $('#imageContainerLeft').hover(
-                function () {
-                    // Mouse enter
-                    $('#imageSelfLeft').addClass("blur");
-                    const fileName = $('<div class="file-name">').text("Gallery B");
-                    $('#imageContainerLeft').append(fileName);
-                },
-                function () {
-                    // Mouse leave
-                    $('#imageSelfLeft').removeClass("blur");
-                    $('#imageContainerLeft').find(".file-name").remove();
-                },
-            );
-            $('#imageSelfLeft').click(function () {
-                window.location.href = "galleryB.html";
-            });
-
-            //Right
-            $('#imageContainerRight').hover(
-                function () {
-                    // Mouse enter
-                    $('#imageSelfRight').addClass("blur");
-                    const fileName = $('<div class="file-name">').text("Gallery A");
-                    $('#imageContainerRight').append(fileName);
-                },
-                function () {
-                    // Mouse leave
-                    $('#imageSelfRight').removeClass("blur");
-                    $('#imageContainerRight').find(".file-name").remove();
-                },
-            );
-            $('#imageSelfRight').click(function () {
-                window.location.href = "galleryA.html";
-            });
         });
     </script>
-    <!-- Icon -->
+    <!-- Ico1n -->
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="instagram" viewBox="0 0 16 16">
             <path
